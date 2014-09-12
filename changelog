@@ -1,0 +1,5 @@
+starleth-udev (0.1-1) trusty; urgency=low
+
+  * Initial commit.
+
+ -- Jerome Maye <jerome.maye@mavt.ethz.ch>  Fri, 12 Sep 2014 11:34:14 +0200
