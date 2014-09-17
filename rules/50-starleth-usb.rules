@@ -2,5 +2,6 @@
 # See udev(7) for syntax.
 
 SUBSYSTEM=="tty", KERNEL=="ttyUSB*", ATTRS{idVendor}=="067b", ATTRS{idProduct}=="2303", SUBSYSTEMS=="usb", MODE=="0666", SYMLINK+="starleth/leica"
+SUBSYSTEM=="tty", KERNEL=="ttyUSB*", ATTRS{idVendor}=="2639", ATTRS{serial}=="0170000A", ATTRS{idProduct}=="0011", SUBSYSTEMS=="usb", MODE=="0666", SYMLINK+="starleth/xsens"
 SUBSYSTEM=="video4linux", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="081b", ATTRS{serial}=="30C84270", SUBSYSTEMS=="usb", MODE=="0666", SYMLINK+="starleth/usb_cam0"
 SUBSYSTEM=="video4linux", ATTRS{idVendor}=="046d", ATTRS{idProduct}=="081b", ATTRS{serial}=="42C94270", SUBSYSTEMS=="usb", MODE=="0666", SYMLINK+="starleth/usb_cam1"
